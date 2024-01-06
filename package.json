@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node --env-file=.env main.js"
   },
@@ -10,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "webdriverio": "^8.27.0"
+  },
+  "dependencies": {
+    "chai": "^5.0.0"
   }
 }
