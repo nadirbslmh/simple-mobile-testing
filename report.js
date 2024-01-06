@@ -1,6 +1,6 @@
 import { generate } from "cucumber-html-reporter";
 
-var options = {
+const options = {
   theme: "bootstrap",
   jsonFile: "test/report/cucumber_report.json",
   output: "test/report/cucumber_report.html",
