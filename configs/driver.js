@@ -1,4 +1,5 @@
 import { remote } from "webdriverio";
+import "dotenv/config";
 
 const capabilities = {
   platformName: process.env.PLATFORM_NAME,

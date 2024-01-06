@@ -1,0 +1,197 @@
+[
+  {
+    "description": "    As a user\n    I can use Calculator\n    So that I can perform calculation",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculator;add-two-numbers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6911760673
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the calculator page",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4144080302
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I tap number 1",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320049713
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I tap plus operator",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239778739
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I tap number 5",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 804898444
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the addition result is 6",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 798372948
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 392407269
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculator;subtract-two-numbers",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Subtract two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6845031867
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on the calculator page",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4028205947
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I tap number 6",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465758896
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I tap minus operator",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029413807
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I tap number 3",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800785560
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the subtraction result is 3",
+            "match": {
+              "location": "file:/home/nadir/codes/cobamobile/features/steps/calculator.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1334671504
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 322246381
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculator",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculator",
+    "tags": [],
+    "uri": "features/calculator.feature"
+  }
+]
