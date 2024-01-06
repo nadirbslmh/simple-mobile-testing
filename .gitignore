@@ -16,3 +16,6 @@ apps/
 *.log
 chromeDriver
 .tmp
+
+.env
+.vscode
